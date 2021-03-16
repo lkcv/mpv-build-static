@@ -2,8 +2,8 @@
 set -e
 export LC_ALL=C
 
-#scripts/fribidi-config
-#scripts/fribidi-build $@
+scripts/flac-config
+scripts/flac-build $@
 scripts/libass-config
 scripts/libass-build $@
 scripts/ffmpeg-config
